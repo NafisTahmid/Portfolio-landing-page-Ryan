@@ -1,0 +1,14 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+section.heading-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.heading-section-information-section {
+    padding: 150px 0 0 0;
+}
