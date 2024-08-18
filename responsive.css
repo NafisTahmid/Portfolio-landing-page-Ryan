@@ -1,0 +1,56 @@
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    aside.sidebar-two{
+        display:none;
+    }
+    .heading-full-section {
+        height: 93vh;
+    }
+    .heading-section-information-section {
+        padding: 65px 0 0 0;
+    }
+    .heading-section-information-paragraph p {
+       padding:0;
+    }
+    .heading-section-images-section-side-image-1 {
+        display: none;
+    }
+    .heading-section-images-section-side-image-7 {
+
+        top: 434px;
+        left: -288px;
+    }
+    .heading-section-images-section-side-image-6 {
+        position: absolute;
+        content: url(../Images/heading-icon-6.png);
+        top: 356px;
+        left: -96px;
+    }
+    .heading-section-images-section-side-image-3 {
+        right: -18px;
+        top: 60px;
+    }
+    .services-section-box {
+        width: 300px;
+    }
+    .price-plan-section-box {
+        width: 287px;
+        height: 482px;
+    }
+    .recommendations-section-box {
+        width: 285px;
+    }
+    .educational-section-box-horizontal-line-1 {
+        bottom: 422px;
+ 
+    }
+ 
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    
+}
+@media only screen and (max-width:767px) {
+
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+    
+}
