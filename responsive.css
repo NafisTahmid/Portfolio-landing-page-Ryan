@@ -1,67 +1,254 @@
 @media only screen and (min-width:992px) and (max-width:1200px) {
-    aside.sidebar-two{
-        display:none;
-    }
-    .heading-full-section {
-        height: 93vh;
-    }
-    .heading-section-information-section {
-        padding: 65px 0 0 0;
-    }
-    .heading-section-information-paragraph p {
-       padding:0;
-    }
-    .heading-section-images-section-side-image-1 {
-        display: none;
-    }
-    .heading-section-images-section-side-image-7 {
-
-        top: 434px;
-        left: -288px;
-    }
-    .heading-section-images-section-side-image-6 {
-        position: absolute;
-        content: url(../Images/heading-icon-6.png);
-        top: 356px;
-        left: -96px;
-    }
-    .heading-section-images-section-side-image-3 {
-        right: -18px;
-        top: 60px;
-    }
-    .services-section-box {
-        width: 300px;
-    }
-    .price-plan-section-box {
-        width: 287px;
-        height: 482px;
-    }
-    .recommendations-section-box {
-        width: 285px;
-    }
-    .educational-section-box-horizontal-line-1 {
-        bottom: 422px;
- 
+   
+    section.heading-section {
+        width: 90vw;
+        margin: 0 0 0 145px;
+        height: 115vh;
     }
     .side-bar-options {
         width: 5.9%;
+        left: 1259px;
     }
-    section.heading-section{
-        width:108vw;
+    .heading-section-images-section-side-image-1 {
+        left: -421px;
+
     }
- 
-}
-@media only screen and (min-width:768px) and (max-width:991px) {
-    
-}
-@media only screen and (max-width:767px) {
+    .services-section-title, .price-plan-section-title, .recommendations-section-title, .education-section-title, .work-history-section-title, .portfolio-section-title, .blog-section-title{
+        margin-left:33%;
+    }
+    .services-section-title p, .price-plan-section-title p, .recommendations-section-title p, .education-section-title p, .work-history-section-title p, .portfolio-section-title p, .blog-section-title p{
+        width:100%;
+        margin-left: -3%;
+    }
+    .services-section-boxes {
+        display: flex;
+        justify-content: center;
+        margin-left: 22%;
+        align-items: center;
+    }
+    .services-section-box {
+        margin-top: 25px;
+        text-align: center;
+        height: 225px;
+        width: 207px;
+        background-color: #FFF;
+        padding: 15px 25px 15px 25px;
+        border-radius: 8px;
+        margin-left: 38px;
+    }
+    .services-section-box {
+        height: 255px;
+    }
+    .price-plan-section-box {
+        width: 247px;
+        height: 475px;
+        background: #FFF;
+        padding: 0 25px 15px 25px;
+        text-align: center;
+        border-radius: 4px;
+        transition: 0.3s;
+        margin-left: 66px;
+    }
+    section.price-plan-section, .recommendations-section, .education-section, .work-history-section, .portfolio-section, .blog-section, .contact-information-section {
+        margin: 85px 0 0 0;
+    }
+    .recommendations-section-box {
+        width:254px;
+    }
 
 }
-@media only screen and (min-width:480px) and (max-width:767px) {
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .side-bar-options {
+        display: none;
+    }
+    aside.sidebar-two{
+        display:none;
+    }
+    section.heading-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFF;
+        border-radius: 8px;
+        width: 89vw;
+    }
+    .heading-section-image-section img {
+        position: absolute;
+        left: 100px;
+        bottom: -98px;
+    }
+    section.heading-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFF;
+        border-radius: 8px;
+        margin-left: -132px;
+        width: 112vw;
+    }
+    .heading-section-images-section-side-image-1 {
+        left: -409px;
+        bottom: 260px;
+    }
+    .heading-section-images-section-side-image-2 {
+        top: 33px;
+        left: 380px;
+    }
+    .heading-section-images-section-side-image-3 {
+        right: -100px;
+        bottom: 109px;
+    }
+    .heading-full-section {
+        height: 97.5vh;
+        width: 60vw;
+    }
+    .heading-section-images-section-side-image-4,
+    .heading-section-images-section-side-image-5,
+    .heading-section-images-section-side-image-6,
+    .heading-section-images-section-side-image-7{
+        display:none;
+    }
+    .services-section-box{
+        width:197px;
+        height: 279px;
+    }
+    section.price-plan-section, .recommendations-section, .education-section, .work-history-section, .portfolio-section, .blog-section, .contact-information-section {
+        margin: 70px 0 0 0;
+    }
+    .price-plan-section-box{
+        width: 194px;
+        height: 597px;
+    }
+    .most-popular-text {
+        width: 194px;
+        margin-left: -25px;
+    }
+    .most-popular-text p {
+        padding: 5px 1px 5px 20px;
+        /* width: 311px; */
+        /* margin-left: -26px; */
+    }
+    .price-plan-section-box ul li a {
+        font-size: 12px;
+    }
+    .price-plan-section-box {
+        height: 548px;
+    }
+    .recommendations-section-box {
+        width: 303px;
+    }
+    .portfolio-image-decorations img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media only screen and (max-width:767px) {
     aside.sidebar-two{
         display:none;
     }
     .side-bar-options{
         display:none;
+    }
+
+}
+@media only screen and  (max-width:576px) {
+    aside.sidebar-two{
+        display:none;
+    }
+    .side-bar-options{
+        display:none;
+    }
+    aside.sidebar-two {
+        display: none;
+    }
+    .heading-section-image-section {
+        position: relative;
+        display: none;
+    }
+    section.heading-section {
+        width: 96vw;
+    }
+    section.heading-section {
+        height: 64vh;
+        text-align: center;
+    }
+    .heading-section-information-section-btn a {
+        margin-right: 50px;
+    }
+    .heading-section-information-heading h1 {
+        font-size: 35px;
+    }
+    .heading-section-information-paragraph p {
+        font-size: 12px;
+        line-height: 20px;
+        color: #767676;
+        padding: 10px 0 0 0px;
+        width: 100%;
+    }
+    .heading-section-information-section-btn a {
+        margin-right: 1px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .services-section-title h2, .price-plan-section-title h2, .recommendations-section-title h2, .education-section-title h2, .work-history-section-title h2, .portfolio-section-title h2, b.log-section-title h2 {
+        font-size: 24px;
+        line-height: 123.6%;
+        color: #2B2B2B;
+    }
+    .services-section-title p, .price-plan-section-title p, .recommendations-section-title p, .education-section-title p, .work-history-section-title p, .portfolio-section-title p, .blog-section-title p {
+        width: 43%;
+        font-size: 15px;
+        line-height: 24px;
+        color: #767676;
+    }
+    .services-section-boxes {
+        display: flex;;
+        flex-direction: column;
+        margin-left: 19px;
+    }
+    .price-plan-section-box {
+        margin: 0 0 10px 19px;
+    }
+    .portfolio-section-title-menu {
+        display: none;
+    }
+    .contact-information-section-info {
+        width: 348px;
+    }
+    section.contact-information-section textarea {
+        width: 296px;
+    }
+    .contact-information-section-box {
+        width: 345px;
+    }
+    section.companies-logo-section.mt-5 {
+        margin-right: 71px;
+    }
+    .heading-section-images-section-side-image-2 {
+        top: -279px;
+        left: -21px;
+    }
+    .heading-section-images-section-side-image-3 {
+        right: -20px;
+        top: 60px;
+    }
+    .heading-section-images-section-side-image-1,
+    .heading-section-images-section-side-image-4,
+    .heading-section-images-section-side-image-5,
+    .heading-section-images-section-side-image-6,
+    .heading-section-images-section-side-image-7
+    {
+        display:none
+    }
+    .blog-section-bg-1 {
+        background-image: url(../Images/block-bg-1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 310px;
+        height: 300px;
+        margin-bottom: 15px;
     }
 }
